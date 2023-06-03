@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+/* 一覧画面 */
+.photo-thumb {
+  view-transition-name: photo-example;
+  contain: paint;
+}
+
+/* 詳細画面 */
+.photo-detail {
+  view-transition-name: photo-example;
+  contain: paint;
+}

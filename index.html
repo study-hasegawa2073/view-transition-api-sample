@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Transition API</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 一覧画面 -->
+    <div id="view-index">
+      <ul class="photo-list">
+        <li>
+          <img
+            class="photo-thumb"
+            src="img/photo01.jpeg"
+            width="376"
+            height="251"
+          />
+          <div class="photo-meta">
+            <div>
+              <button class="btn button-open">詳細をひらく</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 詳細画面 -->
+    <div id="view-detail" hidden>
+      <div class="detail-action">
+        <button class="btn button-close">一覧へもどる</button>
+      </div>
+      <div class="detail-layout">
+        <div>
+          <img
+            class="photo-detail"
+            src="img/photo01.jpeg"
+            width="752"
+            height="502"
+          />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
